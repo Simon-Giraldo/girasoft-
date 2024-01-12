@@ -1,6 +1,93 @@
-.h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Merriweather:wght@700&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #18191a;
+    color: #e6e9ec;
 }
-#opciones{
-    color: gold;
+.cabeza_de_pagina{
+    background-color: #242526;
+}
+#h1{
+    display: inline-block;
+    color: #0766ff;
+}
+#imagen_pricipal{
+    width: 40px;
+}
+#registrarse{
+    width: 150px;
+    height: 45px;
+    color: #e6e9ec;
+    margin-top: 10px;
+    border: 1px solid #000000 ;
+    background-color: #3a3b3c;
+    border-radius: 20px;
+    float: right;
+}
+#iniciar_secion{
+    width: 150px;
+    height: 45px;
+    color: #e6e9ec;
+    margin-top: 10px;
+    border: 1px solid #000000 ;
+    background-color: #3a3b3c;
+    border-radius: 20px;
+    float: right;
+    margin-right: 6px;
+}
+.somos{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #242526;
+    margin-top: 6px;
+    width: 280px;
+    height: 250px;
+    text-align: center;
+    margin-right: 30px;
+}
+.somos_h2{
+    display: inline-block;
+    color: #0766ff;
+}
+.somos_que{
+    width: 273px;
+    height: 120px;
+}
+.somos_fundador{
+    width: 273px;
+    height: 120px;
+}
+
+
+
+.servicios {
+    display: inline-block;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #242526;
+    margin-top: 6px;
+    width: 333px;
+    height: 150px;
+    text-align: center;
+    margin-right: 30px;                 
+}
+.servicios_h2{
+    display: inline-block;
+}
+
+.beneficios{
+    display: inline-block;
+    background-color: #242526;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    
+}
+.beneficios_h2{
+    color: #0766ff;
+    display: inline-block;
+}
+.beneficios_lista{
+    display: inline-block;
+
 }
